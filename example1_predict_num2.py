@@ -70,7 +70,7 @@ def predictint(imvalue):
     
 
     with tf.Session() as sess:
-        #sess.run(init_op)
+
         saver.restore(sess, "tmp_mnist/model.ckpt")
         print ("Model restored.")
        
