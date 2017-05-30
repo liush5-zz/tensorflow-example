@@ -52,11 +52,6 @@ def imageprepare(argv):
 	data = (255.0-data)/255.0
 	new_data = np.reshape(data,(1,28*28)
 
-
-    #tv = list(newImage.getdata()) #get pixel values
-    
-    #normalize pixels to 0 and 1. 0 is pure white, 1 is pure black.
-    #tva = [ (255-x)*1.0/255.0 for x in tv] 
     return new_data
     #print(tva)
 
