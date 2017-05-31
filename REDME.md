@@ -1,5 +1,5 @@
-## 参考博客内容
-#### 写了2个用tensorflow 解析手写数字图片的示例。体验了一下**tensorflow**框架。
+
+#### 参考博客内容,写了2个用tensorflow 解析手写数字图片的示例。体验了一下**tensorflow**框架。
 
 * example1：   
     1.先用example1_create_model1.py使用MNIST数据集训练并保存模型。
