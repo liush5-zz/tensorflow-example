@@ -15,4 +15,4 @@ Two simple tensorflow examples:Predict handwriting images by using MNIST
     
 #### 调试中遇到的主要问题：
 
->使用Spyder IDE调试代码是遇到“python kernel died”问题，导致掉用模型式一直打印找不到参数的error，后在CMD中直接敲python命令运行代码ok。
+>使用Spyder IDE调试代码是遇到“python kernel died”问题，导致调用模型时一直打印找不到参数的error，后在CMD中直接敲python命令运行代码ok。
