@@ -48,9 +48,9 @@ def imageprepare(argv):
     height = float(im.size[1])
     img = im.resize((28,28), Image.ANTIALIAS).filter(ImageFilter.SHARPEN)
     data = img.getdata()
-	print("data:",data)
-	data = (255.0-data)/255.0
-	new_data = np.reshape(data,(1,28*28)
+    print("data:",data)
+    data = (255.0-data)/255.0
+    new_data = np.reshape(data,(1,28*28))
 
     return new_data
     #print(tva)
